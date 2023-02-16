@@ -173,6 +173,7 @@ input {
     cursor: pointer;
 }
 
+/* Deals Component Grid */
 .deals{
     display: grid;
     grid-template-columns: 85% 15%;
@@ -180,14 +181,21 @@ input {
     margin : 20px 80px 20px 80px;
 }
 
+/* New Beginning Image */
 .container-main2{
     background-color: white;
     align-items: center;
     text-align: center;
 }
 
+/* Books and Music Component */
 .books-music{
     margin : 20px 80px 20px 80px
+}
+
+.books-music .itemComItems{
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
 }
 
 .itemComItems{
