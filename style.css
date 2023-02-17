@@ -333,5 +333,14 @@ input {
     .itemComItems{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .container{
+        width: 100vw;
+        grid-template-rows: 60px 120px 1fr;
+    }
+
+    .icon_text{
+        font-size: 14px;
+    }
     
 }
